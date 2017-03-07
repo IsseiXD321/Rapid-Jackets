@@ -11,6 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         
+        <p>Solo Yo (Anderson Garcia) Puedo Modificar El Repositorio</p>
+        
         <?php
         include ("./modelo/dao/InventarioDAO.php");
             $inv = new InventarioDTO();
