@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Rapid Jacked" company="Grupo 5" webLink="http://" view-date="2016-06-01" view-index="0" gantt-divider-location="568" resource-divider-location="300" version="2.8.1" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Rapid Jacked" company="Grupo 5" webLink="http://" view-date="2016-08-01" view-index="1" gantt-divider-location="793" resource-divider-location="723" version="2.8.1" locale="es">
     <description><![CDATA[Proyecto para agilizar los ciclos de venta de las chaquetas de Creaciones Julieth.]]></description>
     <view zooming-state="default:10" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="262" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="129" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="158" order="2"/>
+        <field id="tpd3" name="Nombre" width="591" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="103" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="80" order="2"/>
         <option id="color.recent"><![CDATA[#333333 #f4f4f4 #000000 #ff6600 #cc0000 #660099 #0000cc #ffcc00 #0033cc #3333ff]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="210" order="0"/>
-        <field id="1" name="Función" width="86" order="1"/>
+        <field id="0" name="Nombre" width="421" order="0"/>
+        <field id="1" name="Función" width="298" order="1"/>
     </view>
     <!-- -->
     <calendars base-id="Colombia">
@@ -92,29 +92,29 @@
                 <depend id="194" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="190" name="Planeacion" color="#660099" meeting="false" start="2016-09-26" duration="89" complete="20" expand="true">
+        <task id="190" name="Planeacion" color="#660099" meeting="false" start="2016-09-26" duration="89" complete="100" expand="true">
             <task id="194" name="Elaboracion Diagrama de Clases" color="#660099" meeting="false" start="2016-09-26" duration="3" complete="100" expand="true">
                 <depend id="203" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="203" name="Elaboracion del Diagrama de Estados" color="#660099" meeting="false" start="2016-09-29" duration="4" complete="0" expand="true">
+            <task id="203" name="Elaboracion del Diagrama de Estados" color="#660099" meeting="false" start="2016-09-29" duration="4" complete="100" expand="true">
                 <depend id="212" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="212" name="Elaboracion del Diagrama de Secuencias" color="#660099" meeting="false" start="2016-10-05" duration="8" complete="0" expand="true">
+            <task id="212" name="Elaboracion del Diagrama de Secuencias" color="#660099" meeting="false" start="2016-10-05" duration="8" complete="100" expand="true">
                 <depend id="62" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="62" name="Identificacion y Elaboracion del Diccionario de Datos" color="#660099" meeting="false" start="2016-10-18" duration="3" complete="0" expand="true">
+            <task id="62" name="Identificacion y Elaboracion del Diccionario de Datos" color="#660099" meeting="false" start="2016-10-18" duration="3" complete="100" expand="true">
                 <depend id="64" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="64" name="Elaboracion Plan de Trabajo" color="#660099" meeting="false" start="2016-10-21" duration="4" complete="0" expand="true">
+            <task id="64" name="Elaboracion Plan de Trabajo" color="#660099" meeting="false" start="2016-10-21" duration="4" complete="100" expand="true">
                 <depend id="65" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="65" name="Diseño de la Arquitectura del Sitema" color="#660099" meeting="false" start="2016-10-27" duration="5" complete="0" expand="true">
+            <task id="65" name="Diseño de la Arquitectura del Sitema" color="#660099" meeting="false" start="2016-10-27" duration="5" complete="100" expand="true">
                 <depend id="68" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="68" name="Identificacion y Diseño de Clases, Objetos y Mecanismos de Colaboracion" color="#660099" meeting="false" start="2016-11-03" duration="4" complete="0" expand="true">
+            <task id="68" name="Identificacion y Diseño de Clases, Objetos y Mecanismos de Colaboracion" color="#660099" meeting="false" start="2016-11-03" duration="4" complete="100" expand="true">
                 <depend id="69" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="69" name="Diseño e Identificacion del Comportamiento de las Clases y Objetos" color="#660099" meeting="false" start="2016-11-10" duration="3" complete="0" expand="true">
+            <task id="69" name="Diseño e Identificacion del Comportamiento de las Clases y Objetos" color="#660099" meeting="false" start="2016-11-10" duration="3" complete="100" expand="true">
                 <depend id="71" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="71" name="Diseño de Interfaz del Sistema de Informacion" color="#660099" meeting="false" start="2016-11-16" duration="4" complete="100" expand="true">
@@ -123,45 +123,45 @@
             <task id="70" name="Elaboracion del Prototipo del Sistema" color="#660099" meeting="false" start="2016-11-22" duration="6" complete="100" expand="true">
                 <depend id="63" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="63" name="Elaboracion de Bases de Datos" color="#660099" meeting="false" start="2016-11-30" duration="6" complete="0" expand="true">
+            <task id="63" name="Elaboracion de Bases de Datos" color="#660099" meeting="false" start="2016-11-30" duration="6" complete="100" expand="true">
                 <depend id="72" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="72" name="Elaboracion del Diagrama de Distribucion" color="#660099" meeting="false" start="2016-12-09" duration="7" complete="0" expand="true"/>
-            <task id="255" name="Diseño del Control del Sistema de Informacion" color="#660099" meeting="false" start="2017-01-25" duration="7" complete="0" expand="true">
+            <task id="72" name="Elaboracion del Diagrama de Distribucion" color="#660099" meeting="false" start="2016-12-09" duration="7" complete="100" expand="true"/>
+            <task id="255" name="Diseño del Control del Sistema de Informacion" color="#660099" meeting="false" start="2017-01-25" duration="7" complete="100" expand="true">
                 <depend id="114" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="191" name="Ejecucion" color="#cc0000" meeting="false" start="2017-02-03" duration="45" complete="0" expand="true">
-            <task id="114" name="Elaboracion del Informe del Diseño del Sistema" color="#cc0000" meeting="false" start="2017-02-03" duration="4" complete="0" expand="true">
+        <task id="191" name="Ejecucion" color="#cc0000" meeting="false" start="2017-02-03" duration="45" complete="100" expand="true">
+            <task id="114" name="Elaboracion del Informe del Diseño del Sistema" color="#cc0000" meeting="false" start="2017-02-03" duration="4" complete="100" expand="true">
                 <depend id="115" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="115" name="Elaboracion del Informe de la Seleccion de las Herramientas para el Montaje del Sistema de Inforacion" color="#cc0000" meeting="false" start="2017-02-09" duration="4" complete="0" expand="true">
+            <task id="115" name="Elaboracion del Informe de la Seleccion de las Herramientas para el Montaje del Sistema de Informacion" color="#cc0000" meeting="false" start="2017-02-09" duration="4" complete="100" expand="true">
                 <depend id="116" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="116" name="Planeacion Fase de Construccion del Aplicativo" color="#cc0000" meeting="false" start="2017-02-15" duration="10" complete="0" expand="true">
+            <task id="116" name="Planeacion Fase de Construccion del Aplicativo" color="#cc0000" meeting="false" start="2017-02-15" duration="10" complete="100" expand="true">
                 <depend id="117" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="117" name="Identificacion del Entorno de Trabajo de las Herramientas de Base de Datos" color="#cc0000" meeting="false" start="2017-03-01" duration="6" complete="0" expand="true">
+            <task id="117" name="Identificacion del Entorno de Trabajo de las Herramientas de Base de Datos" color="#cc0000" meeting="false" start="2017-03-01" duration="6" complete="100" expand="true">
                 <depend id="118" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="118" name="Desarrollo del Entorno Web y del Servidor del Cliente del Sistema de Informacion" color="#cc0000" meeting="false" start="2017-03-09" duration="14" complete="0" expand="true">
+            <task id="118" name="Desarrollo del Entorno Web y del Servidor del Cliente del Sistema de Informacion" color="#cc0000" meeting="false" start="2017-03-09" duration="14" complete="100" expand="true">
                 <depend id="119" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="119" name="Identificacion de Funciones de las Herramientas de Lenguaje de Programacion" color="#cc0000" meeting="false" start="2017-03-30" duration="7" complete="0" expand="true">
+            <task id="119" name="Identificacion de Funciones de las Herramientas de Lenguaje de Programacion" color="#cc0000" meeting="false" start="2017-03-30" duration="7" complete="100" expand="true">
                 <depend id="141" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="192" name="Evaluacion" color="#ff6600" meeting="false" start="2017-04-10" duration="142" complete="0" expand="true">
-            <task id="141" name="Elaboracion del Manual Tecnico de la Aplicacion" color="#ff6600" meeting="false" start="2017-04-10" duration="3" complete="0" expand="true">
+        <task id="192" name="Evaluacion" color="#ff6600" meeting="false" start="2017-04-10" duration="142" complete="13" expand="true">
+            <task id="141" name="Elaboracion del Manual Tecnico de la Aplicacion" color="#ff6600" meeting="false" start="2017-04-10" duration="3" complete="50" expand="true">
                 <depend id="142" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="142" name="Elaboracion, Ejecucion y Documentacion del Plan de Pruebas" color="#ff6600" meeting="false" start="2017-04-17" duration="6" complete="0" expand="true">
                 <depend id="143" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="143" name="Evaluar Arquitectura del Sistema" color="#ff6600" meeting="false" start="2017-04-25" duration="4" complete="0" expand="true">
+            <task id="143" name="Evaluar Arquitectura del Sistema" color="#ff6600" meeting="false" start="2017-04-25" duration="4" complete="100" expand="true">
                 <depend id="144" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="144" name="Instalar Requerimientos de Hardware minimo Y Software Previo Faltantes" color="#ff6600" meeting="false" start="2017-05-02" duration="8" complete="0" expand="true">
+            <task id="144" name="Instalar Requerimientos de Hardware minimo Y Software Previo Faltantes" color="#ff6600" meeting="false" start="2017-05-02" duration="8" complete="100" expand="true">
                 <depend id="145" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="145" name="Elaboracion del Plan de Instalacion de Software" color="#ff6600" meeting="false" start="2017-05-12" duration="2" complete="0" expand="true">
@@ -191,7 +191,7 @@
             <task id="152" name="Elaboracion de Plan de Migracion de Datos" color="#ff6600" meeting="false" start="2017-06-14" duration="3" complete="0" expand="true">
                 <depend id="160" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="160" name="Validacion de los Manuales del Usuario con el Cliente" color="#ff6600" meeting="false" start="2017-06-20" duration="4" complete="0" expand="true"/>
+            <task id="160" name="Validacion de los Manuales del Usuario con el Cliente" color="#ff6600" meeting="false" start="2017-06-20" duration="4" complete="100" expand="true"/>
             <task id="241" name="Elaboracion del Plan de Capacitacion" color="#ff6600" meeting="false" start="2017-07-10" duration="6" complete="0" expand="true">
                 <depend id="242" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -232,10 +232,10 @@
         </task>
     </tasks>
     <resources>
-        <resource id="0" name="Heidy Carvajal" function="SoftwareDevelopment:3" contacts="hmcarvajal@misena.edu.co" phone="3213230792"/>
-        <resource id="1" name="Angie Rodriguez" function="SoftwareDevelopment:8" contacts="ajrodriguez21@misena.edu.co" phone="3012541753"/>
+        <resource id="0" name="Heidy Carvajal" function="SoftwareDevelopment:2" contacts="hmcarvajal@misena.edu.co" phone="3213230792"/>
+        <resource id="1" name="Angie Rodriguez" function="SoftwareDevelopment:2" contacts="ajrodriguez21@misena.edu.co" phone="3012541753"/>
         <resource id="2" name="Josue Gomez" function="SoftwareDevelopment:2" contacts="jfgomez9095@misena.edu.co" phone=""/>
-        <resource id="3" name="Elkin Alaguna" function="SoftwareDevelopment:9" contacts="efalaguna@misena.edu.co" phone=""/>
+        <resource id="3" name="Elkin Alaguna" function="SoftwareDevelopment:2" contacts="efalaguna@misena.edu.co" phone=""/>
         <resource id="4" name="Anderson Garcia" function="Default:1" contacts="asgarcia20@misena.edu.co" phone=""/>
     </resources>
     <allocations>
